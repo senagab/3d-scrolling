@@ -55,7 +55,7 @@ basicAnimate();
 
 let model;
 const loader = new THREE.GLTFLoader();
-loader.load("/assets/models/josta.glb", function (gltf) {
+loader.load("/assets/models/soda_can.glb", function (gltf) {
     model = gltf.scene;
     model.traverse((node) => {
         if (node.isMesh) {
