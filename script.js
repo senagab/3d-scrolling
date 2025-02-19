@@ -58,7 +58,7 @@ basicAnimate();
 let model;
 const loader = new THREE.GLTFLoader();
 loader.load(
-    "./assets/models/josta.glb",
+    "./assets/models/soda_can.glb",
     function (gltf) {
     model = gltf.scene;
     model.traverse((node) => {
@@ -97,7 +97,7 @@ loader.load(
 );
 
 // 6. Animation Variables
-const floatAmplitude = 0.2;
+const floatAmplitude = 0.02;
 const floatSpeed = 1.5;
 const rotationSpeed = 0.3;
 let isFloating = true;
