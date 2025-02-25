@@ -1,5 +1,11 @@
 # Three.js Scroll-Based Animation
 
+<p >
+   <img src="https://img.shields.io/badge/threejs-v0.128.0-red" alt="THREE.JS">
+   <img src="https://img.shields.io/badge/GSAP-v3.12.5-red" alt="GSAP">
+   <img src="https://img.shields.io/badge/threejs-v0.128.0-red" alt="Lenis">
+</p>
+
 A Three.js project that animates a 3D GLTF model based on user scroll input. The model rotates and floats smoothly, synchronized with the scroll progress.
 
 ## Features
@@ -43,7 +49,7 @@ A Three.js project that animates a 3D GLTF model based on user scroll input. The
 ```
 
 ## Issues & Fixes
-- Ensure the `.glb` file path is correct (`./assets/models/josta.glb`).
+- Ensure the `.glb` file path is correct (`./assets/models/soda_can.glb`).
 - Avoid multiple imports of `GLTFLoader`, use the correct CDN version.
 - `requestAnimationFrame` should not be canceled prematurely to maintain smooth animation.
 - Proper lighting adjustments improve visibility and realism.
