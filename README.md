@@ -1,9 +1,9 @@
 # Three.js Scroll-Based Animation
 
 <p >
-   <img src="https://img.shields.io/badge/threejs-v0.128.0-red" alt="THREE.JS">
-   <img src="https://img.shields.io/badge/GSAP-v3.12.5-red" alt="GSAP">
-   <img src="https://img.shields.io/badge/threejs-v0.128.0-red" alt="Lenis">
+   <img src="https://img.shields.io/badge/threejs-v0.128.0-blue" alt="THREE.JS">
+   <img src="https://img.shields.io/badge/GSAP-v3.12.5-yellow" alt="GSAP">
+   <img src="https://img.shields.io/badge/lenis-v0.128.0-red" alt="Lenis">
 </p>
 
 A Three.js project that animates a 3D GLTF model based on user scroll input. The model rotates and floats smoothly, synchronized with the scroll progress.
